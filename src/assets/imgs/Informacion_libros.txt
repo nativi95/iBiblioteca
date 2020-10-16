@@ -1,0 +1,29 @@
+Node JS
+Autor: CAIO RIBEIRO PEREIRA
+Editorial: CASA DO CODIGO
+Año: 2014
+Imagen: Nodejs.jpg
+
+Spring MVC
+Autor: ALBERTO SOUZA
+Editorial: CASA DO CODIGO
+Año: 2015
+Imagen: Springmvc.jpg
+
+Arduino Practico
+Autor: FERNANDO BRYAN FRIZZARIN
+Editorial: CASA DO CODIGO
+Año: 2016
+Imagen: Arduino.jpg
+
+Ionic Framework
+Autor: ADRIAN GOIS
+Editorial: CASA DO CODIGO
+Año: 2017
+Imagen: Ionic.jpg
+
+HTML5 Canvas
+Autor: ROQUE FERNANDO MARCOS SOUSA
+Editorial: BRASPORT
+Año: 2014
+Imagen: Html5.jpg

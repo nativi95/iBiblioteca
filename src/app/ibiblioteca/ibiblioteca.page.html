@@ -10,54 +10,15 @@
 <ion-content>
   <ion-list>
     <ion-list-header>Libros disponibles</ion-list-header>
-    <ion-item>
+    <ion-item *ngFor="let libro of Libros.libros" (click)="mostrarDetalle(libro)">
       <ion-thumbnail slot="start">
-        <img src="../../assets/imgs/Arduino.jpg" />
+        <img src="../../assets/imgs/{{libro.imagen}}" />
       </ion-thumbnail>
       <ion-label>
-        <h3>Arduino Practico</h3>
-        <p>CASA DO CODIGO</p>
+        <h3>{{libro.titulo}}</h3>
+        <p>{{libro.editorial}}</p>
       </ion-label>
     </ion-item>
 
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img src="../../assets/imgs/Html5.jpg" />
-      </ion-thumbnail>
-      <ion-label>
-        <h3>HTML5 Canvas</h3>
-        <p>BRASPORT</p>
-      </ion-label>
-    </ion-item>
-
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img src="../../assets/imgs/Ionic.jpg" />
-      </ion-thumbnail>
-      <ion-label>
-        <h3>Ionic Framework</h3>
-        <p>CASA DO CODIGO</p>
-      </ion-label>
-    </ion-item>
-
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img src="../../assets/imgs/Nodejs.jpg" />
-      </ion-thumbnail>
-      <ion-label>
-        <h3>Node JS</h3>
-        <p>CASA DO CODIGO</p>
-      </ion-label>
-    </ion-item>
-
-    <ion-item>
-      <ion-thumbnail slot="start">
-        <img src="../../assets/imgs/Springmvc.jpg" />
-      </ion-thumbnail>
-      <ion-label>
-        <h3>Spring MVC</h3>
-        <p>CASA DO CODIGO</p>
-      </ion-label>
-    </ion-item>
   </ion-list>
 </ion-content>

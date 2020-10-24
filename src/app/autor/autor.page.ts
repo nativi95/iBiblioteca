@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {NavController} from "@ionic/angular";
 
 @Component({
   selector: 'app-autor',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AutorPage implements OnInit {
 
-  constructor() { }
+  constructor(private navCtrl: NavController) {}
+  mostrarCurriculum(){
+    this.navCtrl.navigateForward("curriculum");
+  }
 
   ngOnInit() {
   }

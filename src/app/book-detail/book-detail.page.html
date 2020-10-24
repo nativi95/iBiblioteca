@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/ibiblioteca"></ion-back-button>
+    </ion-buttons>
+    <ion-title>bookDetail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="../../assets/imgs/{{libro.imagen}}" />
+    <ion-card-header>
+      <ion-card-title>{{libro.titulo}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <p>Autor: {{libro.autor}}</p>
+      <p>Año: {{libro.anio}}</p>
+      <p>Editorial: {{libro.editorial}}</p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
